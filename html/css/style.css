@@ -111,7 +111,8 @@ fieldset {
 
 
 nav {
-    position: sticky;
 
-
+    top: 1px;
+    font-size: larger;
+    font-style: italic;
 }
