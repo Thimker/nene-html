@@ -25,8 +25,10 @@
         <ul>
             <li>
                 <a href="MovMu.html">Movies and Music</a>
-            <li><a href="drinks.html">Tarcos and Drinks</a></li>
             </li>
+            <li><a href="drinks.html">Tarcos and Drinks</a></li>
+            <li><a href="spons.html">Sponsors</a></li>
+
         </ul>
     </nav>
 
@@ -111,37 +113,73 @@
                 <hr>
             </aside>
 
-        </section>
-    </article>
 
-    <h1>Contact Me</h1>
-    <p>If you will like to know how, then reach me with the form below</p>
-    <form action="get details" method="get">
-        <fieldset>
-            <legend>Personal Details</legend>
-            <p>
-                <label for="FirstName">First Name:</label>
-                <input type="text" name="FirstName" id="FirstName" placeholder="Dan" autocomplete="on" required
-                    autofocus>
-            </p>
-            <p>
-                <label for="MiddleName">Middle Name:</label>
-                <input type="text" name="MiddleName" id="MiddleName" placeholder="Samuel" autocomplete="on">
-            </p>
-            <p>
-                <label for="LastName">Last Name:</label>
-                <input type="text" name="LastName" id="LastName" placeholder="Tetteh" autocomplete="on" required>
-            </p>
-            <p>
-                <label for="Email">Email:</label>
-                <input type="text" name="Email" id="Email" placeholder="user@example.com" autocomplete="on" required>
-            </p>
-            <p>
-                <label for="Phone">Phone:</label>
-                <input type="tel" name="Phone" id="Phone" placeholder="0123456789" autocomplete="on" required
-                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
-            </p>
-            <!-- <p>
+            <header>
+                <h1>Sponsors</h1>
+                <!-- <nav>
+                    <ul>
+                       <li> <a href="#spon1">The falls</a></li>
+                        <li><a href="#spon2">Best view</a></li>
+                    </ul>
+                </nav> -->
+            </header>
+            <fieldset>
+            <article id="Sponsors">
+
+                <section id="spon1">
+                    <figure>
+                        <img src="image/cs.jpeg" height="300" width="300">
+                        <figcaption><a href="https://www.cellusysacademy.com/">We Think Therefore We Code</a></figcaption>
+                    </figure>
+
+                </section>
+                
+                <section id="spon2">
+                    <figure>
+                        <img src="image/metro.jpeg" alt="wwall" height="300" width="300">
+                        <figcaption><a href="https://www.metropolisafrica.com/">The Pathology Specialist</a></figcaption>
+                    </figure>
+                
+
+
+                </section>
+            </article>
+
+
+
+
+
+
+            <h1>Contact Me</h1>
+            <p>If you will like to know how, then reach me with the form below</p>
+            <form action="get details" method="get">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <p>
+                        <label for="FirstName">First Name:</label>
+                        <input type="text" name="FirstName" id="FirstName" placeholder="Dan" autocomplete="on" required
+                            autofocus>
+                    </p>
+                    <p>
+                        <label for="MiddleName">Middle Name:</label>
+                        <input type="text" name="MiddleName" id="MiddleName" placeholder="Samuel" autocomplete="on">
+                    </p>
+                    <p>
+                        <label for="LastName">Last Name:</label>
+                        <input type="text" name="LastName" id="LastName" placeholder="Tetteh" autocomplete="on"
+                            required>
+                    </p>
+                    <p>
+                        <label for="Email">Email:</label>
+                        <input type="text" name="Email" id="Email" placeholder="user@example.com" autocomplete="on"
+                            required>
+                    </p>
+                    <p>
+                        <label for="Phone">Phone:</label>
+                        <input type="tel" name="Phone" id="Phone" placeholder="0123456789" autocomplete="on" required
+                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                    </p>
+                    <!-- <p>
             <label for="Month">Month:</label>
             <select name="Month" id="Month"> 
                 <option value="January">January</option>
@@ -161,40 +199,42 @@
             </p> -->
 
 
-            <p>
-                <label for="Month">Month:</label>
-                <input type="text" name="Month" id="Month" list="Monthlist">
-                <datalist id="Monthlist">
-                    <option value="January">
-                    <option value="February">
-                    <option value="March">
-                    <option value="April">
-                    <option value="May">
-                    <option value="June">
-                    <option value="July">
-                    <option value="August">
-                    <option value="September">
-                    <option value="October">
-                    <option value="November">
-                    <option value="December">
+                    <p>
+                        <label for="Month">Month:</label>
+                        <input type="text" name="Month" id="Month" list="Monthlist">
+                        <datalist id="Monthlist">
+                            <option value="January">
+                            <option value="February">
+                            <option value="March">
+                            <option value="April">
+                            <option value="May">
+                            <option value="June">
+                            <option value="July">
+                            <option value="August">
+                            <option value="September">
+                            <option value="October">
+                            <option value="November">
+                            <option value="December">
 
 
-                </datalist>
-            </p>
+                        </datalist>
+                    </p>
 
 
-            <p>
-                <label for="Year">Year:</label>
-                <input type="number" name="Year" id="Year" min="1950" max="2024" step="1" value="2024">
-            </p>
-        </fieldset>
+                    <p>
+                        <label for="Year">Year:</label>
+                        <input type="number" name="Year" id="Year" min="1950" max="2024" step="1" value="2024">
+                    </p>
+                </fieldset>
 
-        <fieldset>
-            <legend>Feedback</legend>
-            <label for=""></label>
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <label for=""></label>
 
 
-
+                    <footer>
+                        <p>&copy; cellusys.codecamp</p>
+                    </footer>
 </body>
 
 </html>

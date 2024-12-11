@@ -9,7 +9,54 @@
 
 }
 
+/* header,
+footer {
+    position: sticky;
+    background-color: #9c6c6c;
+    color: aquamarine;
+    text-align: center;
+} */
 
+/* header,main,footer,nav{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+
+} */
+
+
+nav {
+    /* background-color: black; */
+    padding: o.5rem;
+    border-bottom: 2px solid gray;
+    justify-content: space-evenly;
+    align-content: end;
+}
+
+header {
+    top: 0;
+}
+
+#sponsors {
+    background-color: snow;
+    border: 0.5px solid;
+    padding: 0rem;
+    font-style: italic;
+    border-width: 0.5rem;
+
+
+
+}
+
+img {
+    border-radius: 50%;
+    border: 1px;
+    border-style: solid;
+    font-size: 12px;
+   
+
+}
 
 
 
@@ -19,6 +66,14 @@
     min-width: 50px;
     border: 5px double gray;
     border-radius: 50%;
+}
+
+#spons {
+    background-color: rgb(146, 18, 18);
+    border: 1.5px solid;
+    padding: 1rem;
+    font-style: italic;
+    border-width: 0.5rem;
 }
 
 
